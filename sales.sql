@@ -4,6 +4,6 @@ create table henrydb.sales(
     sales_pice int not null,
     sales_stock int not null,
     sales_class varchar(100) not null,
-    sales_date date,
+    sales_date timestamp,
     primary key(sales_id)
 ); 
